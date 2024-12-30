@@ -1,8 +1,8 @@
-# vue-example
-# 241230
+# vue-example 
+241230
 
 # 확장프로그램
-# vue-beautify : 줄정리 # ctrl+shift+f
+    vue-beautify : 줄정리 ctrl+shift+f
 
 # 0. 시작
    npm create vue@latest

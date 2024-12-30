@@ -1,3 +1,3 @@
 git add .
-git commit -m "라우터"
+git commit -m "http 요청"
 git push
