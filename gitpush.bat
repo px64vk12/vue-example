@@ -1,3 +1,3 @@
 git add .
-git commit -m "http 요청"
+git commit -m "템플릿다루기"
 git push

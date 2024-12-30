@@ -8,11 +8,13 @@
    npm create vue@latest
 
 ## 1. 뷰 인스턴스 : new Vue (export default)
-   name        : <div id=""> </div>
-   methods     : 함수 기능 등록
-   components  : 역할별 파트 지정
-   data(){return{}}    : 사용하는 데이터
-   props       : 상위에서 주는데이터 받기
+    name        : <div id=""> </div>
+    methods     : 함수 기능 등록
+    computed    : 상태변화시 실시간 연산 (간단한 처리)
+    watch       : 상태변화시 비동기 처리 (http요청같은)
+    components  : 역할별 파트 지정
+    data(){return{}}    : 사용하는 데이터
+    props       : 상위에서 주는데이터 받기
 
 ## 2. 라이프 사이클 함수
    beforeCreated : data,method 정의 안된 init
@@ -54,4 +56,13 @@
 
 
 ## 9. template
-    {{변수명}} 출력
+    {{변수명}} : 출력, 자바스크립트도 붙일 수 있다.
+    computed를 사용하는게 통일성 있을듯하다.
+    v-bind:[id/class/style]=변수명 : html속성 
+    v-if='flag': 참이면 출력 (v-show html으로는 보인다)
+    v-for='data in list': 리스트 반복 출력
+    v-on:eventname='functionname' : 이벤트로 함수 호출
+    v-model : 입력창과 동기화
+
+    computed
+    watch : 변수명으로 등록
