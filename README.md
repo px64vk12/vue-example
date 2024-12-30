@@ -4,6 +4,8 @@
 # 확장프로그램
 # vue-beautify : 줄정리 # ctrl+shift+f
 
+# 0. 시작
+#   npm create vue@latest
 
 # 1. 뷰 인스턴스 : new Vue (export default)
 #   name        : <div id=""> </div>
@@ -42,9 +44,10 @@
 
 
 # 7. 네스티드 라우터
-#   npm i vue-router@next --save
-#   routers 디렉토리를 추가. routers.js 추가
-#   views 디렉토리 추가 페이지는 views. 
-#   views 페이지 파일 routers.js에 등록
-#   main.js에 routers 등록
-#   App.vue에 라우터를 등록
+#   생성할때 라우터 옵션 체크
+#   views 페이지 추가. 
+#   views 페이지 파일 router/index.js에 등록
+
+
+# 8. http api 요청
+#   npm install axios
