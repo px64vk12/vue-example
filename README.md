@@ -40,3 +40,11 @@
 #   3 버전에서는 사라졌다고한다.
 #   mitt로 사용가능
 
+
+# 7. 네스티드 라우터
+#   npm i vue-router@next --save
+#   routers 디렉토리를 추가. routers.js 추가
+#   views 디렉토리 추가 페이지는 views. 
+#   views 페이지 파일 routers.js에 등록
+#   main.js에 routers 등록
+#   App.vue에 라우터를 등록
