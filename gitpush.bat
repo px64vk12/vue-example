@@ -1,3 +1,3 @@
 git add .
-git commit -m "컴포넌트"
+git commit -m "라우터"
 git push
