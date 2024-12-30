@@ -1,3 +1,3 @@
 git add .
-git commit -m "asdf"
+git commit -m "ÄÄÆ÷³ÍÆ®"
 git push
